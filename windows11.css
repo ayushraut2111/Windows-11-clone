@@ -1,0 +1,73 @@
+*{
+    margin:0px;
+    padding:0px;
+}
+body{
+    background-image: url("images/bg.jpeg");
+    background-size: cover;
+    overflow: hidden;
+
+}
+.taskbar{
+    display: flex;
+    justify-content:space-between;
+    background-color: whitesmoke;
+    position: absolute;
+    bottom: 0;
+    z-index: 1;
+}
+
+#task1{
+    margin-left: 15cm;
+    margin-right:373px;
+}
+.taskimage
+{
+    cursor:default;
+}
+.task :hover img, #imageid :hover img{
+    transform: scale(0.9);
+}
+.startmenu{
+    background-color:whitesmoke;
+    position: absolute;
+    height: 16cm;
+    width: 16cm;
+    margin-left: 30%;
+    bottom:-673px;
+    bottom:55px;
+    transition: all 0.3s ease-in-out;
+    border-radius: 5px;
+}
+.contents{
+    display: flex;
+    justify-content:space-around;
+    background-color: whitesmoke;
+}
+#start{
+    height: 16cm;
+    border-radius: 10px;
+}
+
+#c1{
+    margin-top: 6px;
+    justify-content: space-between;
+}
+#u1{
+    margin-left: 1cm;
+}
+#u2{
+    margin-right: 1cm;
+}
+#c3{
+    display: flex;
+    justify-content: flex-start;
+    margin-left: 16px;
+    margin-bottom: -25px;
+}
+.secndpart{
+    margin-bottom: -35px;
+}
+#calc{
+    margin-left: -3px;
+}
