@@ -35,7 +35,6 @@ body{
     width: 16cm;
     margin-left: 30%;
     bottom:-673px;
-    bottom:55px;
     transition: all 0.3s ease-in-out;
     border-radius: 5px;
 }
